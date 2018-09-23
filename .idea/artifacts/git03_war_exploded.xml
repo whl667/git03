@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="git03:war exploded">
+    <output-path>$PROJECT_DIR$/target/git03</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="git03" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/git03/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="git03/web/Web" />
+    </root>
+  </artifact>
+</component>
